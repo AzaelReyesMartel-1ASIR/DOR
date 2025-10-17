@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página web</title>
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <!-- Reflexión 4. Observa qué pasa si cambias el orden o quitan etiquetas.
+    Si cambio de orden el contenido de la etiqueta footer,
+    se me mostrará en este caso arriba, porque HTML lee en orden.
+    <footer>
+      <p>&copy; 2025 Mi Sitio Web PokeAza. Todos los derechos reservados.</p>
+    </footer>
+    -->
+
+    <!-- CABECERA -->
+    <header>
+      <h1>Bienvenidos a mi página web PokeAza</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <section id="inicio">
+        <h2>Inicio</h2>
+        <p>
+          ¡Ya he hecho varias páginas web, pero siempre aprendo cosas nuevas
+          para mejorar la estructura y estilos de mi web!
+        </p>
+      </section>
+
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+          Me llamo <strong>Azael</strong> y estoy aprendiendo a crear páginas
+          web cuquis con HTML y CSS.
+        </p>
+      </section>
+
+      <!-- Reflexión 4. Observa qué pasa si cambias el orden o quitan etiquetas.
+        Si quitáramos la etiqueta <section>,
+        los estilos del id contacto no se aplican
+        y no aparece el color fondo.
+      <section id="contacto"> -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Puedes contactarme al correo:
+          <a href="mailto:azaelrm12@gmail.com">azaelrm12@gmail.com</a>
+        </p>
+      </section>
+      <!-- </section> -->
+      <section>
+        <h2>Imagen Hollow Knight</h2>
+        <img src="imagen.png" alt="Imagen Hollow Knight">
+      </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <p>&copy; 2025 Mi Sitio Web PokeAza. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

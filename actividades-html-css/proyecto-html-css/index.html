@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéAza Store - Mi web cuqui</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CABECERA -->
+  <header>
+    <h1>Bienvenido a <strong>PokéAza Store</strong> :D</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-pokeaza">Sobre PokéAza</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>¡Hola! Esta es mi página web, donde vendo de manera ficticia productos de Pokémon.</p>
+    </section>
+
+    <section id="sobre-pokeaza">
+      <h2>Sobre PokéAza Store</h2>
+      <p>Nuestra tienda <strong>PokéAza</strong> nació el 17/10/2025. <br>Fue creada porque me gusta mucho Pokémon.</p>
+      <img class="logo" src="assets/img/logo.png" alt="Logo PokeAza Store">
+    </section>
+
+    <section id="productos">
+      <h2>Mis productos</h2>
+      <article class="card">
+        <img src="assets/img/pikachu.jpg" alt="juego">
+        <h3>Videojuego</h3>
+        <p> 40€ </p>
+      </article>
+      <article class="card">
+        <img src="assets/img/peluche.jpg" alt="peluche">
+        <h3>Peluche</h3>
+        <p>15€</p>
+      </article>
+      <article class="card">
+        <img src="assets/img/carta.jpg" alt="carta pokemon">
+        <h3>Carta Pokémon</h3>
+        <p>¡Gratis!</p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>&copy; 2025 PokéAza. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

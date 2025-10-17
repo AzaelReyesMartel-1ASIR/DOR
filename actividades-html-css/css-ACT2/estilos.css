@@ -1,0 +1,92 @@
+/* Mi paleta de colores */
+:root {
+  --color-fondo: #1C1C28;
+  --color-texto: #F5F5F5;
+  --color-seccion: #d1d8fd;
+  --color-texto-seccion: #2C2C2C;
+  --color-primario: #6573da;
+  --color-secundario: #cc5886;
+  --color-hover: #FFD700;
+}
+
+/* estilos del cuerpo */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-fondo);
+  margin: 0;
+  padding: 0;
+  color: var(--color-texto);
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: var(--color-primario);
+  color: var(--color-texto);
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos menú de navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Estilos etiqueta nav enlace */
+nav a {
+  color: var(--color-texto);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+  color: var(--color-hover);
+  text-shadow: 0 0 5px var(--color-hover);
+}
+
+/* Estilo padding contenido main */
+main {
+  padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+  background-color: var(--color-seccion);
+  color: var(--color-texto-seccion);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo de color etiqueta h2 */
+h2 {
+  color: var(--color-primario);
+}
+
+h1 strong:hover{
+    color: var(--color-hover);
+    text-shadow: 0 0 5px var(--color-hover);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Estilos pie de página */
+footer {
+  background-color: var(--color-secundario);
+  color: var(--color-texto);
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos ancho y alto imagen */
+img {
+  width: 100px;
+  height: 100px;
+}

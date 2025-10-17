@@ -1,0 +1,77 @@
+:root {
+
+    --color-fondo: #3b3b4d;
+    --color-texto: #F5F5F5;
+    --color-titulos: #6573da;
+    --color-seccion: white;
+
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    font-family: cursive;
+    background-color: #004080;
+    color: var(--color-texto);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: var(--color-seccion);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--color-titulos);
+}
+
+/* Pie de página */
+footer {
+    background-color: #004080;
+    color: var(--color-texto);
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Ancho y alto imagen */
+img {
+    width: 150px;
+    height: 150px;
+}
